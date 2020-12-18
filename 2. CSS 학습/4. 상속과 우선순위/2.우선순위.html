@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>우선순위</title>
+    <style>
+        /* !important 무조건 첫번째 우선순위 */
+        div{
+            /* color: red !important; */
+        }
+        #c-yellow{
+            color: yellow;
+        }
+        .c-green{
+            color:green;
+        }
+        div{
+            color: blue;
+        }
+        div{
+            color: brown;
+        }
+        body{
+            color:skyblue;
+        }
+    </style>
+</head>
+<body>
+    <!--두번째 우선순위 인라인 스타일-->
+    <div id="c-yellow" class="c-green" style="color:orange">Hello!</div>
+    <!--세번째 우선순위는 아이디 선택자-->
+    <div id="c-yellow" class="c-green">Hello!</div>
+    <!--네번째 우선순위는 클래스 선택자-->
+    <div class="c-green">Hello!</div>
+    <div>Hello!</div>
+
+    
+</body>
+</html>
