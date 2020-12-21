@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>em,rem</title>
+    <style>
+        html{
+            /* rem단위를 위한 기준 폰트*/
+            font-size: 20px;
+        }
+        body{
+            /* 전체 기준 폰트는 body로 잡는다.*/
+            font-size: 14px;
+        }
+        body *{
+            border: 2px solid #000;
+        }
+        .container{
+            /* 폰트사이즈 대비 */
+            /* width:60em; */
+            width: 60rem;
+            font-size: 10px;
+        }
+        .parent{
+            /* width:30em; */
+            width: 30rem;
+        }
+        .child{
+            /* width:15em */
+            width: 15rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">Container
+        <div class="parent">Parent
+            <div class="child">Child1</div>
+            <div class="child">Child2</div>
+        </div>
+    </div>
+</body>
+</html>
