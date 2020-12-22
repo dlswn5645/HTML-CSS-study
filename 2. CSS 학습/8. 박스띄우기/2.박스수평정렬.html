@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>박스수평정렬</title>
+    <style>
+        .box{
+            width: 150px;
+            height: 100px;
+            background:#DDA0DD;
+            font-size: 30px;
+            color: #fff;
+            margin: 10px;
+            /* 박스 왼쪽으로 수평 정렬 */
+            float: left;
+        }
+        .new-box{
+            width: 200px;
+            height: 150px;
+            background:#9370DB;
+            /* new-box부터 수평정렬 해제 */
+            /* both는 왼쪽 정렬을 하던 오른쪽 정렬을 하던 맘대로 */
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="new-box">4</div>
+    
+</body>
+</html>
