@@ -1,33 +1,149 @@
-h1{
-    width: 600px;
-    font-size: 50px;
-    padding: 10px;
+html{
+    background: darkgray;
     box-sizing: border-box;
+}
+body{
+    width: 1500px;
+    height: 1150px;
+    box-sizing: border-box;
+}
+#wrapper{
+    margin-left: 20%;
+}
+h1{
+    width: 850px;
+    font-size: 80px;
+    padding: 10px;
     text-align: center;
+    box-sizing: border-box;
     background: orange;
     font-weight: bold;
     color: #fff;
 }
 h1>span{
     display: block;
-    font-size: 14px;
+    font-size: 20px;
     padding: 10px;
+    box-sizing: border-box;
 }
 .stit{
-    width: 600px;
+    width: 850px;
     padding: 5px;
     text-align: center;
-    background: gray;
+    background: lightgray;
     box-sizing: border-box;
-
 }
-.container .side-menu{
+.side-menu{
+    width: 200px;
+    height: 900px;
+    color: #000;
     background: #fff;
+    float: left;
+    box-sizing: border-box;
 }
 .title{
-    background: red;
+    font-size: 20px;
     color: #fff;
+    font-weight: bold;
+    background: darkred;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.wrap ul li{
+    margin: 25px;
 }
 ul li a{
+    font-size: 17px;
+    font-weight: bold;
     color: #000;
+}
+section{
+    width: 450px;
+    height: 900px;
+    box-sizing: border-box;
+    background: lightgray;
+    float: left;
+}
+article{
+    width: 450px;
+    box-sizing: border-box;
+    padding: 10px;
+    display: block;
+}
+article h2{
+    width: 430px;
+    background: #123456;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 7px;
+}
+article h2 a{
+    font-size: 18px;
+    color: #fff;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+article h3{
+    color: #123456;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 25px 0px;
+}
+article p{
+    font-size: 15px;
+    font-weight: bold;
+    color: #123456;
+}
+.side-links{
+    width: 200px;
+    height: 900px;
+    box-sizing: border-box;
+    color: #000;
+    background: #fff;
+    float: left;
+    font-weight: bold;
+}
+footer{
+    width: 850px;
+    height: 50px;
+    clear: both;
+}
+footer address{
+    width: 850px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #123456;
+    clear: both;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+}
+footer address a{
+    box-sizing: border-box;
+    color: #fff;
+}
+.all{
+    display: block;
+    color: darkgray;
+    font-size: 24px;
+    margin: 13px;
+}
+.love{
+    display: block;
+    color: orange;
+    font-size:23px;
+    margin: 13px;
+}
+div>span{
+    display: block;
+    font-size: 20px;
+    margin:13px 13px 50px;
+}
+.links li{
+    margin: 13px;
+}
+.links li span{
+    font-size: 13px;
+    display: block;
+    margin: 5px 0px 20px;
 }
