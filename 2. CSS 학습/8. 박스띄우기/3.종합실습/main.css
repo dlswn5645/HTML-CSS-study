@@ -3,12 +3,12 @@ html{
     box-sizing: border-box;
 }
 body{
-    width: 1500px;
+    width: 1700px;
     height: 1150px;
     box-sizing: border-box;
 }
 #wrapper{
-    margin-left: 20%;
+    margin-left: 40%;
 }
 h1{
     width: 850px;
